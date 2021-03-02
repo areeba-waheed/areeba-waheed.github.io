@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content="width=device-width, initial-scale=1' name='viewport"/>
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link
@@ -23,34 +24,43 @@
     p {
       line-height: 2;
     }
-    .bgimg,
+    .bgimg{
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+      height: auto;
+      style="width:100%;margin:32px 0";
+      class="w3-round w3-grayscale-min";
+      
+    }
     .bgimg2 {
       min-height: 100%;
       background-position: center;
       background-size: cover;
     }
     .bgimg {
-      background-image: url(https://cdn.glitch.com/53f9406d-28e7-47a4-b6c5-95871e54a7ae%2Fpicture1.jpeg?v=1597952580489);
+      background-image: url(https://cdn.glitch.com/53f9406d-28e7-47a4-b6c5-95871e54a7ae%2Fbc76c98ffeed9e68bdd9cb705f568051.jpg?v=1614711259913);
     }
     .bgimg2 {
       background-image: url(https://cdn.glitch.com/53f9406d-28e7-47a4-b6c5-95871e54a7ae%2Fpicture2.jpg?v=1597956243650);
     }
+   
   </style>
 
   <body>
-    <!-- Header / Home-->
+    <!-- Header / Home "w3-display-container w3-round bgimg w3-grayscale-min"-->
     <header
-      class="w3-display-container w3-wide bgimg w3-grayscale-min"
+      class= "w3-container w3-padding-64 w3-pale-red w3-grayscale-min bgimg"
       id="home"
     >
-      <div class="w3-display-middle w3-text-white w3-center">
+      <div class="w3-display-middle w3-text-yellow w3-center">
         <h1 class="w3-jumbo">
           Areeba <br />
           & <br />
           Sulman
         </h1>
         <h2>Are getting married</h2>
-        <h2><b>03.10.2021</b></h2>
+        <h2><b>03.25.2021</b></h2>
       </div>
     </header>
 
@@ -81,7 +91,7 @@
       id="us"
     >
       <div class="w3-content">
-        <h1 class="w3-center w3-text-grey"><b>Areeba & Sulman</b></h1>
+        <h1 class="w3-center w3-text-grey"><b>Bismillah al-Rahman al-Rahim</b></h1>
         <img
           class="w3-round w3-grayscale-min"
           src="https://cdn.glitch.com/53f9406d-28e7-47a4-b6c5-95871e54a7ae%2F3.png?v=1597957759816"
@@ -94,7 +104,7 @@
             children Areeba Waheed & Sulman Khan. You all know us. Both our punjabi families will unite for
             the celebration of love, of commitment, of friendship, of family, and of two people who are in it for forever.
           The marriage ceremony has been an important feature across nearly every culture, religion, generation, and society. 
-            We will be celebrating this wedding Pakistani style with a Punjabi tarka.
+            We will be celebrating this wedding at home due to Covid-19 restrictions.
             Join us in celebration of the first step of their new beginning; their new life together.
           </i
           >
@@ -133,13 +143,12 @@
         <div class="w3-row">
           <div class="w3-half">
             <h2>When</h2>
-            <p>Wedding Ceremony - 2:00pm</p>
-            <p>Reception & Dinner - 5:00pm</p>
+            <p>Mehndi Ceremony - 7:00pm</p>
+            <p>03.20.2021</p>
           </div>
           <div class="w3-half">
             <h2>Where</h2>
-            <p>Some place, an address</p>
-            <p>Some where, some address</p>
+            <p>11516 Balboa Blvd, Granada Hills CA 91344</p>
           </div>
         </div>
         <h1 class="w3-text-grey"><b>Baraat and Ceremony</b></h1>
@@ -151,13 +160,13 @@
         <div class="w3-row">
           <div class="w3-half">
             <h2>When</h2>
-            <p>Wedding Ceremony - 2:00pm</p>
+            <p>Nikkah Ceremony - 4:00pm</p>
             <p>Reception & Dinner - 5:00pm</p>
+            <p>Rukhsati - 6:00pm</p>
           </div>
           <div class="w3-half">
             <h2>Where</h2>
-            <p>Some place, an address</p>
-            <p>Some where, some address</p>
+            <p>11516 Balboa Blvd, Granada Hills CA 91344</p>
           </div>
         </div>
       </div>
@@ -169,7 +178,7 @@
       id="rsvp"
     >
       <h1>HOPE YOU CAN MAKE IT!</h1>
-      <p class="w3-large">Kindly Respond By January, 2021 for Baraat day</p>
+      <p class="w3-large">Kindly Respond By 03.08.2021</p>
       <p class="w3-xlarge">
         <!--
         <button
